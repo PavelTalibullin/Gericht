@@ -60,7 +60,12 @@ fieldset {
 	margin: 0;
 }
 
+/* стили для хедера */
 
+header {
+	background-color: #0C0B08;
+	height: 120px;
+}
 
 .container {
 	width: 100%;
@@ -74,6 +79,49 @@ fieldset {
 	float: left;
 }
 
-.navigation-wrap li {
+.header-nav li {
 	float: left;
 }
+
+.header-logo {
+	font-family: 'Cormorant Upright', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 32px 437px 32px 0;
+	color: #FFFFFF;
+	font-size: 44px;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+.header-menu {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	margin: 46.5px 0;
+}
+
+.header-menu li>a {
+	padding: 20px 16px;
+}
+
+.header-registration {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin: 46.5px 0;
+}
+
+.header-registration li>a {
+	padding:20px 0;
+}
+
+.header-registration li:first-child {
+	margin-left: 251px;
+	margin-right: 89px;
+}
+

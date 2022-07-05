@@ -7,6 +7,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -67,9 +68,9 @@ header {
 	height: 120px;
 }
 
-.container {
+.container-big {
 	width: 100%;
-	max-width: 1710px;
+	max-width: 1680px;
 	margin: 0 auto;
 	padding: 0 15px;
 	overflow: auto;
@@ -84,21 +85,19 @@ header {
 }
 
 .header-logo {
-	font-family: 'Cormorant Upright', serif;
+	font-family: 'Cormorant Upright', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 32px 437px 32px 0;
 	color: #FFFFFF;
 	font-size: 44px;
 	letter-spacing: 0.04em;
-	text-align: center;
 }
 
 .header-menu {
 	float: left;
-	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
 	font-weight: 400;
-	line-height: 175%;
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
 	margin: 46.5px 0;
@@ -110,18 +109,127 @@ header {
 
 .header-registration {
 	float: left;
-	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
 	font-weight: 600;
 	color: #FFFFFF;
 	margin: 46.5px 0;
 }
 
 .header-registration li>a {
-	padding:20px 0;
+	padding: 20px 0;
 }
 
 .header-registration li:first-child {
-	margin-left: 251px;
+	margin-left: 241px;
 	margin-right: 89px;
 }
 
+/* Второй блок */
+
+.offer {
+	background-color: #0C0B08;
+}
+
+.container {
+	max-width: 1680px;
+	margin: 0 auto;
+	padding: 0 15px;
+	overflow: auto;
+}
+
+
+
+.hashtag {
+	color: #FFFFFF;
+	margin-top: 336px;
+	transform: rotate(270deg);
+}
+
+.content-ofer {
+	margin: 175.5px 180px 191.5px 110px; 
+}
+
+.title {
+	font-family: 'Cormorant Upright', serif;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 23px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+
+h1 {
+	font-family: 'Cormorant Upright', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 130%;
+	color: #DCCA87;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	margin-bottom: 32px;
+}
+
+.offer-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	line-height: 175%;
+	margin-bottom: 32px;
+}
+
+.btn	{
+	font-family: 'Cormorant Upright', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background: #DCCA87;
+	padding: 8px 32px;
+}
+
+.image-container {
+	float: right;
+}
+
+
+.photo-food1 {
+	position: relative;
+	margin-top: 72px;
+	width: 619px;
+	height: 688px;
+	z-index: 3;
+}
+
+.photo-food2 {
+	position: relative;
+	top: -420px;
+	left: -24px;
+	width: 435px;
+	height: 435px;
+	z-index: 2;
+}
+
+.photo-food3 {
+	position: relative;
+	top: -1150px;
+	right: -1055px;
+	width: 435px;
+	height: 435px;
+	z-index: 1;
+}
+
+.navigation li{
+	float: left;
+	color: #FFFFFF;
+	margin-top: 0;
+}
+
+.scroll {
+	float: left;
+	color: #FFFFFF;
+}

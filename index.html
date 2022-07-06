@@ -43,18 +43,16 @@
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Landing</a></li>
 				</ul>
-				<ul class="header-registration">
-					<li><a href="#">Log in / Registration</a></li>
-					<li><a href="#">Book Table</a></li>
-				</ul>
+				<div class="header-registration">
+					<a href="#">Log in / Registration</a>
+					<a href="#">Book Table</a>
+				</div>
 			</nav>
 		</div>
 	</header>
 
-
-
-
 	<main>
+		<!-- Первый блок -->
 		<section class="offer">
 			<div class="container">
 				<div class="hashtag fl">
@@ -87,14 +85,10 @@
 				</nav>
 				<button type="button" class="scroll" name="scroll">
 					<img src="/img/Vector8.svg" alt="">
-					SCROLL
+					scroll
 				</button>
 			</div>
 		</section>
-
-
-
-
 		<!-- Второй блок -->
 		<section class="info">
 			<div class="container-info">
@@ -105,12 +99,10 @@
 						posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
 					<a href="#" class="btn-info">Know More</a>
 				</div>
-
 				<div class="photo-info fl">
 					<img src="/img/G.png" alt="logo">
 					<img src="/img/knife.png" alt="knife">
 				</div>
-
 				<div class="ourhistory fl">
 					<h2>Our History</h2>
 					<img src="/img/Vector.svg" alt="">
@@ -120,41 +112,28 @@
 				</div>
 			</div>
 		</section>
-
-
-
-
-
 		<!-- третий блок, регистрация-->
-
 		<section class="registration">
 			<div class="reg-container">
 				<form action="https://fom.in.ua/echo">
 					<fieldset>
 						<h4>Reservations</h4>
-						<img src="/img/Vector.svg" alt="">
+						<p><img src="/img/Vector.svg" alt=""></p>
 						<h2>Book A Table</h2>
-
-						<select name="person" id="person">
+						<select name="person" id="person" class="registr-form">
 							<option value="person1">1 Person</option>
 							<option value="person2">2-4 Person</option>
 							<option value="person3">4-6 Person</option>
 							<option value="person4">6-10 Person</option>
 							<option value="person5">>10 Person</option>
 						</select>
-
 						<label>
-							<input type="date" name="datebrony">
+							<input type="date" name="datebrony" class="registr-form">
 						</label>
-
 						<label>
-							<input type="time" name="timebrony">
+							<input type="time" name="timebrony" class="registr-form">
 						</label>
-
-						<div>
-							<button type="submit">Book Now</button>
-						</div>
-
+						<button type="submit" class="btn ">Book Now</button>
 					</fieldset>
 				</form>
 			</div>

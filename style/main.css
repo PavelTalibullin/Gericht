@@ -128,6 +128,7 @@ header {
 
 .offer {
 	background-color: #0C0B08;
+	height: 1023px;
 }
 
 .container {
@@ -135,18 +136,28 @@ header {
 	margin: 0 auto;
 	padding: 0 15px;
 	overflow: auto;
+	
 }
-
-
 
 .hashtag {
+	position: relative;
+	left: -50px;
 	color: #FFFFFF;
-	margin-top: 336px;
+	margin-top: 380px;
 	transform: rotate(270deg);
+	padding: 3px;
 }
 
+
+
+.hashtag a:first-child {
+	position: relative;
+	right: 40px;
+}
+
+
 .content-ofer {
-	margin: 175.5px 180px 191.5px 110px; 
+	margin: 175.5px 180px 191.5px 80px; 
 }
 
 .title {
@@ -179,7 +190,7 @@ h1 {
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
 	line-height: 175%;
-	margin-bottom: 32px;
+	margin-bottom: 44px;
 }
 
 .btn	{
@@ -189,7 +200,8 @@ h1 {
 	font-size: 16px;
 	letter-spacing: 0.04em;
 	background: #DCCA87;
-	padding: 8px 32px;
+	padding: 12.5px 32px;
+	height: 44px;
 }
 
 .image-container {
@@ -207,29 +219,187 @@ h1 {
 
 .photo-food2 {
 	position: relative;
-	top: -420px;
+	top: -415px;
 	left: -24px;
 	width: 435px;
 	height: 435px;
 	z-index: 2;
+	margin-bottom: 64px;
 }
 
 .photo-food3 {
 	position: relative;
-	top: -1150px;
-	right: -1055px;
+	top: -1220px;
+	right: -874px;
 	width: 435px;
 	height: 435px;
 	z-index: 1;
 }
 
+
+.main-nav {
+	position: relative;
+	top: -425px;
+	left: 745px;
+}
+
+
 .navigation li{
 	float: left;
+	font-family: 'Cormorant Upright', serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
 	color: #FFFFFF;
-	margin-top: 0;
+}
+
+.navigation li>a {
+	padding: 8px;
+}
+.line2 {
+	position: relative;
+	top: -5px;
+	color: #DCCA87;
+}
+
+.scroll img {
+	position: relative;
+	top: -45px;
+	right: -33px;
 }
 
 .scroll {
-	float: left;
+	position: relative;
+	float: right;
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	top: -488px;
+	color: #DCCA87;
+	height: 113px;
+}
+
+/* Второй блок (информация)*/
+
+.info	{
+	height: 959px;
+}
+
+.container-info {
+	width: 1300px;
+	height: 703px;
+	margin: 120px 305px 136px 315px;
+}
+
+.container-info h2 {
+	font-family: 'Cormorant Upright';
+	font-weight: 600;
+	font-size: 64px;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #DCCA87;
+}
+
+
+.aboutus {
+	width: 523px;
+	text-align: right;
+	margin-top: 339px;
+}
+
+.aboutus p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+}
+
+.aboutus img{
+	position: relative;
+	transform: rotate(180deg);
+}
+
+.btn-info {
+	font-family: 'Cormorant Upright';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 175px;
+	letter-spacing: 0.04em;
+	color: #0C0C0C;
+	padding: 12.5px 32px;
+	background: #DCCA87;
+}
+
+.ourhistory {
+	position: relative;
+	width: 523px;
+	text-align: left;
+	margin-top: 339px;
+}
+
+.ourhistory p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+}
+
+.photo-info img:first-child {
+	position: absolute;
+	margin: 144px 0;
+	z-index: -1;
+
+}
+
+.photo-info img:last-child {
+	position: relative;
+	right: 20px;
+}
+
+
+/* Третий блок, регистрация */
+
+.registration {
+	width: 100%;
+	height: 775px;
+	background: #0C0B08;
+}
+
+.reg-container {
+	border: 1px solid rgba(220, 202, 135, 0.2);
+	width: 1364px;
+	height: 466px;
+	margin: 157px 278px 152px 278px;
+}
+
+.reg-container h4 {
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
 	color: #FFFFFF;
+}
+
+.reg-container h2 {
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #DCCA87;
 }

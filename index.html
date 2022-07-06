@@ -61,13 +61,11 @@
 					<a href="#">#Bar</a>
 					<a href="#">#Gericht</a>
 				</div>
-
 				<div class="content-ofer fl">
 					<p class="title">
 						Chase the new Flavour <br>
 						<img src="/img/Vector.svg" alt="">
 					</p>
-
 					<h1>The key to <br> Fine dining</h1>
 					<p class="offer-text">
 						Sit tellus lobortis sed senectus vivamus molestie.<br>
@@ -76,73 +74,91 @@
 					</p>
 					<a href="#" class="btn">Explore Menu</a>
 				</div>
-
-
-
 				<img class="photo-food1" src="/img/eat1.jpg" alt="toast with egg and herbs">
 				<img class="photo-food2" src="/img/square.jpg" alt="">
 				<img class="photo-food3" src="/img/square2.jpg" alt="">
-
-
-
-				<!-- <nav>
+				<nav class="main-nav fl">
 					<ul class="navigation">
-						<li><a href="#">01</a>-</li>
+						<li><a href="#">01</a><img src="/img/Line2.svg" alt="" class="line2"></li>
 						<li><a href="#">02</a></li>
 						<li><a href="#">03</a></li>
-						<li><a href="#">04 </a></li>
+						<li><a href="#">04</a></li>
 					</ul>
-				</nav> -->
-
-				<!-- <div class="scroll">
-					<batton>SCROLL</button>
-				</div> -->
+				</nav>
+				<button type="button" class="scroll" name="scroll">
+					<img src="/img/Vector8.svg" alt="">
+					SCROLL
+				</button>
 			</div>
-
 		</section>
+
+
+
 
 		<!-- Второй блок -->
-		<section>
-			<h2>About Us</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate
-				posuere
-				tristique. In sed odio nec aliquet eu proin mauris et.</p>
-			<a href="#">Know More</a>
-		</section>
-		<div>
-			<img src="/img/G.png" alt="logo">
-			<img src="/img/knife.png" alt="knife">
-		</div>
-		<section>
-			<h2>Our History</h2>
-			<p>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse
-				interdum mi aliquam In sed odio nec aliquet.</p>
-			<a href="#">Know More</a>
+		<section class="info">
+			<div class="container-info">
+				<div class="aboutus fl">
+					<h2>About Us</h2>
+					<img src="/img/Vector.svg" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate
+						posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+					<a href="#" class="btn-info">Know More</a>
+				</div>
+
+				<div class="photo-info fl">
+					<img src="/img/G.png" alt="logo">
+					<img src="/img/knife.png" alt="knife">
+				</div>
+
+				<div class="ourhistory fl">
+					<h2>Our History</h2>
+					<img src="/img/Vector.svg" alt="">
+					<p>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat
+						habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+					<a href="#" class="btn-info">Know More</a>
+				</div>
+			</div>
 		</section>
 
-		<!-- третий блок -->
-		<form action="https://fom.in.ua/echo">
-			<fieldset>
-				<h4>Reservations</h4>
-				<h2>Book A Table</h2>
-				<select name="person" id="person">
-					<option value="person1">1 Person</option>
-					<option value="person2">2-4 Person</option>
-					<option value="person3">4-6 Person</option>
-					<option value="person4">6-10 Person</option>
-					<option value="person5">>10 Person</option>
-				</select>
-				<label>
-					<input type="date" name="datebrony">
-				</label>
-				<label>
-					<input type="time" name="timebrony">
-				</label>
-				<div>
-					<button type="submit">Book Now</button>
-				</div>
-			</fieldset>
-		</form>
+
+
+
+
+		<!-- третий блок, регистрация-->
+
+		<section class="registration">
+			<div class="reg-container">
+				<form action="https://fom.in.ua/echo">
+					<fieldset>
+						<h4>Reservations</h4>
+						<img src="/img/Vector.svg" alt="">
+						<h2>Book A Table</h2>
+
+						<select name="person" id="person">
+							<option value="person1">1 Person</option>
+							<option value="person2">2-4 Person</option>
+							<option value="person3">4-6 Person</option>
+							<option value="person4">6-10 Person</option>
+							<option value="person5">>10 Person</option>
+						</select>
+
+						<label>
+							<input type="date" name="datebrony">
+						</label>
+
+						<label>
+							<input type="time" name="timebrony">
+						</label>
+
+						<div>
+							<button type="submit">Book Now</button>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+		</section>
 	</main>
 </body>
 

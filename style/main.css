@@ -523,6 +523,10 @@ form button:hover {
 
 /* пятый блок */
 
+.special-menu {
+	background:#0C0B08;
+}
+
 .container-bar {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -537,6 +541,7 @@ form button:hover {
 	letter-spacing: 0.04em;
 	text-transform: capitalize;
 	text-align: center;
+	color: #FFFFFF;
 }
 
 .vector-bar {
@@ -551,6 +556,7 @@ form button:hover {
 	letter-spacing: 0.04em;
 	text-transform: capitalize;
 	color: #DCCA87;
+	margin-bottom: 64px;
 }
 
 .left_block {
@@ -563,4 +569,54 @@ form button:hover {
 
 .right_block {
 	float: left;
+}
+
+.price-block h3 {
+	font-family: 'Cormorant Upright';
+	font-weight: 600;
+	font-size: 45px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	padding-bottom: 43px;
+	padding-top: 32px;
+	color: #FFFFFF;
+}
+
+.price p:first-child {
+	font-family: 'Cormorant Upright';
+	font-weight: 700;
+	font-size: 23px;
+	letter-spacing:0.04em;
+	text-transform: capitalize;
+	color: #DCCA87;
+	padding-bottom: 8px;
+}
+
+.price p:last-child  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding-bottom: 40px;
+}
+
+.price p>span {
+	font-family: 'Cormorant Upright';
+	color: #FFFFFF;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.price p>img {
+	float: inherit;
+	color: #FAFAFA;
+	width: 119px;
+	height: 1px;
+	margin: 0 32px 4.5px 32px
+}
+
+
+
+.photo_shaker {
+	padding: 0 16px;
 }

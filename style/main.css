@@ -309,21 +309,10 @@ h1 {
 
 .info	{
 	height: 959px;
-	background: #0C0B08 url(/img/phon.svg) no-repeat;
+	background: #0C0B08 url(/img/BG.jpg) no-repeat;
 	background-size: cover;
 }
 /* Затемнение блока feader */
-.feader-gr {
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-}
-
-.feader-gr .gradient {
-	height: 91.2vh;
-	background: #040404;
-	opacity: 0.5;
-}
 
 .container-info {
 	position: absolute;
@@ -488,7 +477,7 @@ form button:hover {
 .menubar {
 	position: relative;
 	width: 100%;
-	background:#0C0B08 url(/img/phon_blok4.jpg) no-repeat;
+	background:#0C0B08 url(/img/Group90.jpg) no-repeat;
 	background-size: 100% 932px;
 }
 

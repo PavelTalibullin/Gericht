@@ -99,7 +99,6 @@ header {
 	line-height: 130%;
 }
 
-
 .header-menu {
 	float: left;
 	font-style: normal;
@@ -138,7 +137,7 @@ a:active {
 	color: #AAAAAA;
 }
 
-/* Второй блок */
+/* Первый блок, оффер */
 
 .offer {
 	background-color: #0C0B08;
@@ -165,7 +164,6 @@ a:active {
 	position: relative;
 	right: 40px;
 }
-
 
 .content-ofer {
 	margin: 175.5px 180px 191.5px 80px; 
@@ -219,11 +217,9 @@ h1 {
 	height: 44px;
 }
 
-
 .image-container {
 	float: right;
 }
-
 
 .photo-food1 {
 	position: relative;
@@ -252,13 +248,11 @@ h1 {
 	z-index: 1;
 }
 
-
 .main-nav {
 	position: relative;
 	top: -425px;
 	left: 745px;
 }
-
 
 .navigation li{
 	float: left;
@@ -305,14 +299,13 @@ h1 {
 	color: #AAAAAA;
 }
 
-/* Второй блок (информация)*/
+/* Второй блок, информация*/
 
 .info	{
 	height: 959px;
 	background: #0C0B08 url(/img/BG.jpg) no-repeat;
 	background-size: cover;
 }
-/* Затемнение блока feader */
 
 .container-info {
 	position: absolute;
@@ -462,7 +455,7 @@ h1 {
 	font-weight: 600;
 	letter-spacing: 0.04em;
 	text-transform: capitalize;
-	
+	padding-left: 16px;
 }
 
 form button {
@@ -473,7 +466,8 @@ form button:hover {
 	color: #AAAAAA;
 }
 
-/* Четвертый блок */
+/* Четвертый блок, меню */
+
 .menubar {
 	position: relative;
 	width: 100%;
@@ -511,7 +505,7 @@ form button:hover {
 	text-decoration-line: underline;
 }
 
-/* пятый блок */
+/* пятый блок, напитки */
 
 .special-menu {
 	background:#0C0B08;

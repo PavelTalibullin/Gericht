@@ -486,6 +486,7 @@ form button:hover {
 
 /* Четвертый блок */
 .menubar {
+	position: relative;
 	width: 100%;
 	background:#0C0B08 url(/img/phon_blok4.jpg) no-repeat;
 	background-size: 100% 932px;
@@ -561,14 +562,19 @@ form button:hover {
 
 .left_block {
 	float: left;
+	margin-right: 27px;
+	margin-bottom: 64px;
 }
 
 .photo_shaker {
 	float: left;
+	margin-bottom: 64px;
 }
 
 .right_block {
 	float: left;
+	margin-left: 27px;
+	margin-bottom: 64px;
 }
 
 .price-block h3 {
@@ -577,46 +583,43 @@ form button:hover {
 	font-size: 45px;
 	letter-spacing: 0.04em;
 	text-align: center;
-	padding-bottom: 43px;
+	padding-bottom: 48px;
 	padding-top: 32px;
 	color: #FFFFFF;
 }
 
 .price p:first-child {
+	display: inline;
 	font-family: 'Cormorant Upright';
 	font-weight: 700;
 	font-size: 23px;
-	letter-spacing:0.04em;
+	letter-spacing: 0.04em;
 	text-transform: capitalize;
 	color: #DCCA87;
-	padding-bottom: 8px;
 }
 
-.price p:last-child  {
+.price p:nth-child(2) {
+display: inline;
+float: right;
+color: #FFFFFF;
+}
+
+.price img {
+	width: 119px;
+	height: 1px;
+	margin: 0 32px 4.5px 32px;
+}
+
+.price p:last-child {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
-	padding-bottom: 40px;
+	margin-bottom: 49px;
+	padding-top: 8px;
 }
 
-.price p>span {
-	font-family: 'Cormorant Upright';
-	color: #FFFFFF;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-}
-
-.price p>img {
-	float: inherit;
-	color: #FAFAFA;
-	width: 119px;
-	height: 1px;
-	margin: 0 32px 4.5px 32px
-}
-
-
-
-.photo_shaker {
-	padding: 0 16px;
+.more-drink {
+	text-align: center;
 }
